@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, red , yellow); */
+    /* background-image: linear-gradient(to left, red , yellow); */
+    /* background-image: linear-gradient(to top, red , yellow); */
+    /* background-image: linear-gradient(6deg, red , yellow); */
+    /* background-image: repeating-linear-gradient(45deg, #d2e0fb , #52815145 45px ); */
+    /* background-image: linear-gradient( rgba(5, 35, 24, 0.5) , rgba(34, 41, 46, 0.5), rgba(36, 54, 54, 0.5) , rgba(172, 216, 69, 0.5)),
+    url(../images/template-badge.jpg);
+    background-repeat: no-repeat; */
+    /* background-size: 100% auto; */
+    /* background-size: cover; */
+
+    /*-----------------------------------------------radial----------------------------------------------------------------------*/
+    /* background-image: radial-gradient(circle,blue, red, yellow) */
+    background-image: repeating-radial-gradient(red, yellow, blue 60px);
+}
